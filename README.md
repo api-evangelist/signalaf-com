@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-signalaf-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://signalaf.com/
+SignalAF (legal name Ello Cello LLC) provides the SigRank AI leaderboard platform that ranks AI operators by Yield, a metric combining cache reads, output and input efficiency. The service offers a public REST API with OpenAPI 3.0 specification, authentication via Supabase OAuth and API keys, rate‑limit policies, error handling with RFC 9457 problem details, versioned endpoints under /api/v1, and extensive developer documentation hosted at https://signalaf.com/developers. The organization is based in Buffalo, NY, and maintains open‑source SDKs and tools.
+
+**Areas:** AI · Analytics · Leaderboard · OpenAPI · PublicAPI
+
+## signalaf-com on APIs.io
+
+Everything profiled for signalaf-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/signalaf-com/](https://apis.io/providers/signalaf-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [signalaf-com Hall API](https://apis.io/apis/signalaf-com/signalaf-com-hall-api/) — The hall API from signalaf-com — 1 operation(s) for hall.
+- [signalaf-com Leaderboard API](https://apis.io/apis/signalaf-com/signalaf-com-leaderboard-api/) — The leaderboard API from signalaf-com — 1 operation(s) for leaderboard.
+- [signalaf-com Metrics API](https://apis.io/apis/signalaf-com/signalaf-com-metrics-api/) — The metrics API from signalaf-com — 1 operation(s) for metrics.
+- [signalaf-com Operators API](https://apis.io/apis/signalaf-com/signalaf-com-operators-api/) — The operators API from signalaf-com — 2 operation(s) for operators.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Signalaf Com Agentic Access](https://apis.io/agentic-access/signalaf-com/signalaf-com-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [HallOfSignal](https://apis.io/schemas/signalaf-com/signalaf-com-hall-of-signal/)
+- [Leaderboard](https://apis.io/schemas/signalaf-com/signalaf-com-leaderboard/)
+- [Operator](https://apis.io/schemas/signalaf-com/signalaf-com-operator/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Signalaf Com Context](https://apis.io/jsonld/signalaf-com/signalaf-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Signalaf Com Openapi Overlay](https://apis.io/overlays/signalaf-com/signalaf-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [signalaf-com API Rules](https://apis.io/rules/signalaf-com/signalaf-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Signalaf Com Authentication](https://apis.io/security/signalaf-com/signalaf-com-authentication/)
+- [Signalaf Com Domain Security](https://apis.io/security/signalaf-com/signalaf-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Signalaf Com Scopes](https://apis.io/scopes/signalaf-com/signalaf-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Signalaf Com Plans Pricing](https://apis.io/plans/signalaf-com/signalaf-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Signalaf Com Rate Limits](https://apis.io/rate-limits/signalaf-com/signalaf-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://signalaf.com/)
+- [Documentation](https://signalaf.com/developers)
+- [Getting started](https://signalaf.com/auth.md)
+- [API reference](https://signalaf.com/openapi.json)
+- [Pricing](https://signalaf.com/pricing)
+- [Support](https://signalaf.com/contact)
+- [Blog](https://signalaf.com/blog)
+- [Terms of service](https://signalaf.com/terms)
+- [Privacy policy](https://signalaf.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.1** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 44.7 |
+
+**Agent readiness 49.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | self |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/signalaf-com/](https://apis.io/providers/signalaf-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for signalaf-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/signalaf-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
